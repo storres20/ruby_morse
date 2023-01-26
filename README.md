@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="rubylogo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Morse Code Project</b></h3>
