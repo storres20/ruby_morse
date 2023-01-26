@@ -36,3 +36,25 @@ def decode_word(word)
 end
 
 puts decode_word("-- -.--")
+
+
+=begin 
+Create a method to decode the entire message in Morse code, takes a string parameter, and return the string representation. Every word will be separated by 3 spaces (e.g.
+=end
+
+# decode_message("-- -.--   -. .- -- .") => "MY NAME"
+def decode_message(message)
+  space = "   " # 03
+  newMessage = message.split(space).map {|n| decode_word(n)}.join(" ")
+end
+
+puts decode_message("-- -.--   -. .- -- .")
+
+=begin 
+Once your code is ready use it to decode the message from the old bottle:
+.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...
+=end
+
+# decode_message(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+
+puts decode_message(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
