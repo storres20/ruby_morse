@@ -144,6 +144,12 @@ You can deploy this project using:
 - Twitter: [@italolonkan](https://twitter.com/italolonkan)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/italo-lon-kan)
 
+👤 *Daniel Carrera*
+
+- GitHub: [@carreraprogrammer](https://github.com/carreraprogrammer )
+- Twitter: [@carreraprog](https://twitter.com/carreraprog)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/daniel-carrera-85a917244/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
