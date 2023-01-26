@@ -27,4 +27,16 @@ def decode_word(word)
   word.split(space).map { |n| decode_char(n) }.join
 end
 
-puts decode_word('-- -.--')
+puts decode_word("-- -.--")
+
+# decode_message("-- -.--   -. .- -- .") => "MY NAME"
+def decode_message(message)
+  space = "   " # 03
+  newMessage = message.split(space).map {|n| decode_word(n)}.join(" ")
+end
+
+puts decode_message("-- -.--   -. .- -- .")
+
+# decode_message(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+
+puts decode_message(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
